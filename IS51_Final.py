@@ -7,9 +7,9 @@ the program will need to output the class average from all the students scores
 
 the program will need to output the class average percentage of students who scored above the average which should be 54.17%
 
-function1 will output data.split()
-function2 will output sum(data) / len(data)
-function3 will output count = count + 54.17
+count function will output data.split()
+average function will output sum(data) / len(data)
+above function will output count = count + 54.17
 
 
 """
@@ -17,17 +17,17 @@ function3 will output count = count + 54.17
 """
 file = open (D:\Final.txt, "rt")
 data = file.read
-function1 = data.split 
+count function = data.split 
 
 print('number of grades ', len(function1))
 
-function2 = []
+average = []
 with open("D:\Final.txt, "rt")
      for line in rt:
          fields = line.split()
          row data = map(str.format, fields)
-         function2.extend(rowdata)
-print(total(function2)/len(function2))
+         average.extend(rowdata)
+print(total(average)/len(average))
 
 
 Function3
@@ -38,4 +38,7 @@ k = should be 54.17%
 print("the list:" +str(test_list))
 
 """
+
+
+
 
