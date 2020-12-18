@@ -9,7 +9,7 @@ the program will need to output the class average percentage of students who sco
 
 count function will output data.split()
 average function will output sum(data) / len(data)
-above function will output count = count + 54.17
+above will output count = count + 54.17
 
 
 """
@@ -42,3 +42,30 @@ print("the list:" +str(test_list))
 
 
 
+file = open(r"C:\Users\harle\Desktop\Work\IS51\IS51Final\Final.txt", "r")
+count = 0
+for line in file :
+    parts = line.split()
+    count += len(parts)
+
+print("Number of Grades: ", (count))
+
+
+average = []
+
+
+
+with open(r"C:\Users\harle\Desktop\Work\IS51\IS51Final\Final.txt")as f:
+     average = [float(line.rstrip()) for line in f]
+big = min(average)
+small = max(average)
+(big - small)
+print("Average Grades: ", sum(average)/len(average))
+
+
+
+#above = [line.strip() for line in open("D:\Final.txt", 'r') ]
+
+#lcount  = sum(map(lambda x: x > 54.17, above))
+
+#print("percentage above 54.17%", lcount)
