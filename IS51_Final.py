@@ -14,3 +14,28 @@ function3 will output count = count + 54.17
 
 """
 
+"""
+file = open (D:\Final.txt, "rt")
+data = file.read
+function1 = data.split 
+
+print('number of grades ', len(function1))
+
+function2 = []
+with open("D:\Final.txt, "rt")
+     for line in rt:
+         fields = line.split()
+         row data = map(str.format, fields)
+         function2.extend(rowdata)
+print(total(function2)/len(function2))
+
+
+Function3
+test_list = open("D:\Final.txt, "rt")
+
+k = should be 54.17%
+
+print("the list:" +str(test_list))
+
+"""
+
